@@ -1,0 +1,337 @@
+/* Grid - 1440px*/
+
+*{
+    Margin: 0;
+    Padding:0;
+}
+
+.linha{
+    width: 1440px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px 0;
+}
+.coluna{
+    padding: 0 30px;
+    float:left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 180px;
+}
+.col3{
+    width: 300px;
+}
+.col4{
+    width: 420px;
+}
+.col5{
+    width: 540px;
+}
+.col6{
+    width: 660px;
+}
+.col7{
+    width: 780px;
+}
+.col8{
+    width: 900px;
+}
+.col9{
+    width: 1020px;
+}
+.col10{
+    width: 1140px;
+}
+.col11{
+    width: 1260px;
+}
+.col12{
+    width: 1380px;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #242424;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    display:flex;
+    width: 10%;
+}
+#logo{
+    padding-left: 40px;
+    padding-top:0px
+}
+.menu{
+    display:flex;
+    width: 100%;
+    list-style: none;
+}
+.linha_do_menu_inicial{
+    margin-left: 95.41px;
+    margin-right: 120px;
+    position: absolute;
+    top:14px;
+    left:50px
+}
+#boas_vindas{
+    width: 100%;
+    padding-left: 600px;
+}
+.parágrfo_sobre_as_boas_vindas1{
+    width: 100%;
+    padding-left: 490px;
+    padding-bottom: 15px;
+}
+#logo_maior{
+    border-radius: 180px;
+    margin-left: 600px;
+}
+.parágrfo_sobre_as_boas_vindas2{
+    width: 100%;
+    padding-left: 510px;
+    padding-top:15px;
+}
+#sobre{                  /*back-ground1*/
+    background-color:rgb(223, 85, 112);
+}
+#quem_somos{
+    position: absolute;
+    top:100px;
+    left: 250px;
+}
+#descrição_de_quem_sao{
+    width: 120px;
+    position: absolute;
+    top:140px;
+    left: 250px;
+}
+#ideais{
+    width: 100px;
+    position: absolute;
+    top: 85px;
+    right: 250px;
+}
+#descrição_dos_ideais{
+    width: 150px;
+    position: absolute;
+    top:150px;
+    right: 200px;
+}
+#cardapio{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.opçoes_do_cardapio{
+    display: flex;
+    padding-left: 80px;
+    gap: 30px;
+    list-style: none;
+}
+#item_1{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#espagueti{
+    border-radius: 40px 40px 0 0;
+}
+.preço1{
+    padding-left: 80px;
+}
+#nome_1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.frete1{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+#item_2{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#sushi{
+    border-radius: 40px 40px 0 0;
+}
+.preço2{
+    padding-left: 80px;
+}
+#nome_2{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.frete2{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+#item_3{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#pizza_italiana{
+    border-radius: 40px 40px 0 0;
+}
+.preço3{
+    padding-left: 80px;
+}
+#nome_3{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.frete3{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+#item_4{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#hamburguer{
+    border-radius: 40px 40px 0 0;
+}
+.preço4{
+    padding-left: 80px;
+}
+#nome_4{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.frete4{
+    padding-left: 70px;
+    padding-top: 80px;
+}
+#item_5{
+    width: 240px;
+    height: 360px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#batata_frita{
+    border-radius: 40px 40px 0 0;
+}
+.preço5{
+    padding-left: 90px;
+}
+#nome_5{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.frete5{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#back-ground2{
+    background-color: rgb(223, 85, 112);
+}
+#seçao_de_cardapio{
+    height: 450px;
+}
+#back-ground3{
+    background-color: rgb(223, 85, 112);
+}
+#avaliaçoes{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.comentarios{
+    display:flex;
+    padding-left: 100px;
+    gap:40px;
+    list-style: none;
+}
+.comentario1{
+    width: 390px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#texto_do_comentario1{
+    width: 250px;
+    position:absolute;
+    left: 230px;
+    top: 960px ;
+}
+#nome_de_usuario1{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px ;
+    background-color: rgba(123, 123, 123, 0.626);
+}
+#icone_de_suario1{
+    border-radius: 40px;
+}
+.comentario2{
+    width: 390px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#texto_do_comentario2{
+    width: 250px;
+    position:absolute;
+    left: 650px;
+    top: 960px ;
+}
+#nome_de_usuario2{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px ;
+    background-color: rgba(123, 123, 123, 0.626);
+    
+}
+#icone_de_suario2{
+    border-radius: 40px;
+}
+.comentario3{
+    width: 390px;
+    background-color: rgb(120, 55, 144);
+    border-radius: 40px;
+}
+#texto_do_comentario3{
+    width: 250px;
+    position:absolute;
+    right: 150px;
+    top: 960px ;
+}
+#nome_de_usuario3{
+    display: flex;
+    padding-left: 170px;
+    padding-top: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px ;
+    background-color: rgba(123, 123, 123, 0.626);
+}
+#icone_de_suario3{
+    border-radius: 40px;
+}
+#seçao_de_comentarios{
+    height: 210px;
+}
+footer{
+    background-color: #242424;
+}
+#direitos{
+    color:rgb(120, 55, 144);
+}
